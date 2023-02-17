@@ -1,6 +1,11 @@
-print(type("Hello Hi!"))
+#LIFE IN WEEKS coding
 
-print("Hello" + " " + "Vinod, welcome to 100 days of Coding" )
-new = (str(len(input("what is your name\n") ) ) ) 
-print("Your name has " + new + " character" )
-print(type("your name has " + new + " character"))
+age = input("What is your current age? ")
+
+remaining = 90-int(age)
+Days = int(remaining)*365 
+months =int(remaining)*12
+weeks = int(remaining)*52
+
+message =  (f"You have {Days} days, {weeks} weeks, and {months} months left")
+print(message)
